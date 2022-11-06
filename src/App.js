@@ -125,7 +125,6 @@ function App() {
         {result == "lose" && <h4>Ouch!</h4>}
         {result == "tie" && <h4>Tie</h4>}
       </div>
-
       <div>
         <div className='move-select-caption'>
           <h3>Select a move:</h3>
@@ -145,6 +144,7 @@ function App() {
         <div className='play-again'>
           {gameOver == true && <button className='play-again-button' onClick={resetGame}>Play Again</button>}
         </div>
+        <br/><br/><br/>
       </div>
 
       <footer className="footer">
